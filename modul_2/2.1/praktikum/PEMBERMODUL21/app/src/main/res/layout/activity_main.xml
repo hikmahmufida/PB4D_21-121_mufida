@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="115dp"
+        android:src="@drawable/wattpad"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Search"
+            android:textSize="15sp"
+            android:background="#BEBDB8"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Browse Tags"
+            android:textSize="15sp"
+            android:padding="10sp"
+            android:background="#BEBDB8"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="700dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/fantasi" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:src="@drawable/fiction"
+            android:layout_gravity="left"
+            android:layout_margin="5dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:src="@drawable/non_fiction"
+            android:layout_gravity="right"
+            android:layout_margin="5dp" />
+
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="LIST NOVEL"
+            android:textSize="20sp" />
+
+        <TableRow
+            android:background="#D6CFC7">
+            <TextView
+                android:text="JUDUL NOVEL"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:padding="3dip"/>
+
+            <TextView
+                android:text="KATEGORI"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#D9DDDC">
+            <TextView
+                android:text="Little Magacal Piya"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:padding="3dip"/> />
+
+            <TextView
+                android:text="Fantasi"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"/>
+        </TableRow >
+
+        <TableRow
+            android:background="#D6CFC7">
+            <TextView
+                android:text="Once Upon A Time"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:padding="3dip"/>
+
+            <TextView
+                android:text="Fiksi"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"
+                />
+        </TableRow>
+        <TableRow
+            android:background="#D9DDDC">
+
+            <TextView
+                android:text="Soul Travellers"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:padding="3dip"/> />
+
+            <TextView
+                android:text="Non Fiksi"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"/>
+        </TableRow >
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView"
+        android:justificationMode="inter_word"
+        android:text="BACA"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
