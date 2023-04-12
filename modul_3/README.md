@@ -1,0 +1,2 @@
+Saya membuat program aplikasi dengan menampilkan data pinterest dan websitenya. Pada program ini, saya mnggunakan imageview, textview, button, serta relative juga constraint layout dan mengimplementasikan
+intent. Intent explisit untu mengarahkan ke activity lain, sedangkan intent implisit untuk mengarahkan ke halaman website pinterest. Di sini saya menggunakan dua button di activity pertama, button1 untuk menampilkan about atau tentang pinterest, dan button2 untuk mengarahkan ke websitenya. Sementara button3 di activity 2 untuk mengembalikan user ke activity 1.
