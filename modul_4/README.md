@@ -1,0 +1,1 @@
+Pada program sign in instagram ini, saya membuat satu activity dengan dua fragmen di dalamnya. Fragment1 untuk menerima inputan dari user, sedangkan Fragment2 untuk membawa data Fragment1. Pada Fragment1, user akan diminta menginputkan username yang diinginkan beserta email aktif, sedangkan Fragment2 akan membawa data tersebut untuk kemmudian ditampilkan.
